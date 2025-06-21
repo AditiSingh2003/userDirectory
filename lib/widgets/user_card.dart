@@ -43,18 +43,13 @@ class UserCard extends StatelessWidget {
                     user.email,
                     style: const TextStyle(fontSize: 14, color: Colors.grey),
                   ),
-                  SizedBox(height: 4),
-                  Row(
-                    children: [
-                      Icon(Icons.location_on, size: 14, color: Colors.red),
-                      Text(
-                        '${user.location.city}, ${user.location.country}',
-                        style: TextStyle(fontSize: 14, color: Colors.grey[600]),
-                        textAlign: TextAlign.center,
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                    ],
+                  SizedBox(height: 4), 
+                  Text(
+                    '${user.location.city}, ${user.location.country}',
+                    style: TextStyle(fontSize: 14, color: Colors.grey[600]),
+                    textAlign: TextAlign.center,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
                   ),
                   SizedBox(height: 4),
                   Text(

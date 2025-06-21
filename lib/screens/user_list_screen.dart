@@ -168,7 +168,7 @@ class _UserListScreenState extends State<UserListScreen> {
           padding: EdgeInsets.all(16),
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: crossAxisCount,
-            childAspectRatio: 2.7, 
+            childAspectRatio: 1.5, 
             crossAxisSpacing: 16,
             mainAxisSpacing: 12,
           ),
